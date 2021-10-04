@@ -1,0 +1,202 @@
+/*CSS Reset*/
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  max-width: 100%;
+  border: 1px solid grey;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.8rem;
+  line-height: 1.5;
+  background-color: #fffafa;
+  font-family: "PT sans", sans-serif;
+  color: #4f4f4f;
+}
+h1,
+h2,
+h3 {
+  font_family: Nunito, sans-serif;
+  letter-spacing: 3px;
+  text-align: center;
+}
+h1 {
+  font-size: 5rem;
+}
+h2 {
+  font-size: 3rem;
+}
+h3 {
+  font-size: 2.5rem;
+}
+a {
+  font_family: Nunito, sans-serif;
+  letter-spacing: 3px;
+  text-decoration: none;
+  transition: 2s;
+}
+a hover {
+  color: fcb130;
+}
+i {
+  font-size: 5rem;
+}
+section,
+footer {
+  padding: 4% 0;
+}
+/*header section styles*/
+nav.main {
+  padding: 2% 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+.logo {
+  width: 8%;
+  text-align: center;
+}
+.links {
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+}
+#top {
+  height: 95vh;
+  background-image: url("../images/header.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  margin-top: 7.5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/*farm section styles*/
+.container {
+  display: flex;
+  justify-content: center;
+}
+.box {
+  width: 20%;
+  padding: 4%;
+  border: 3px solid black;
+  background-color: #fff;
+  text-align: center;
+  margin: 5% 0;
+}
+/*empty section with img*/
+.empty {
+  background-image: url(../images/dirt.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  height: 40vh;
+}
+/*about section styles*/
+.text {
+  width: 60%;
+  border: 3px solid black;
+  background-color: white;
+  text-align: center;
+  margin: 0 auto;
+}
+/*gallery section styles*/
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.gal-img {
+  width: 45%;
+  height: 40vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  align-items: flex-end;
+}
+.hide {
+  background-color: #fff;
+  width: 30%;
+  height: 10vh;
+  display: none;
+}
+.gal-img:hover .hide {
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+.farm {
+  background-image: url(../images/barn.jpg);
+}
+.cook {
+  background-image: url(../images/cook.jpg);
+}
+.veg {
+  background-image: url(../images/produce.jpg);
+}
+.animal {
+  background-image: url(../images/sheep.jpg);
+}
+/*contact section styles*/
+#contact {
+  display: flex;
+  color: #fff;
+}
+#contact h2 {
+  width: 100%;
+}
+.left,
+.right {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4% 0;
+}
+.left div {
+  width: 50%;
+  line-height: 2;
+}
+.right div {
+  width: 50%;
+}
+.left h3 {
+  text-align: left;
+}
+/*footer Section Styles*/
+footer {
+  background-color: #fcb130;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+footer div {
+  width: 30%;
+}
+.social {
+  display: flex;
+  justify-content: space-around;
+}
+.footernav {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+footer a {
+  color: #fff;
+  transition: 2s;
+}
+footer a:hover {
+  color: #4f4f4f;
+}
